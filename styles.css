@@ -4,9 +4,29 @@ body {
     margin: 0;
     padding: 20px;
     background-color: #f4f4f9;
+    background-image: url('cloudyspaceimage.jpg');
+}
+
+h1 {
+    color: white;
+}
+
+#city {
+    height: 30px;
+    width: 200px;
+}
+
+#getWeather {
+    height: 36px;
+    width: 100px;
+}
+
+#getWeather:hover {
+    background-color: #0086b3;
 }
 
 #result {
+    color: white;
     margin-top: 20px;
     font-size: 18px;
 }
